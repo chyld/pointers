@@ -9,3 +9,4 @@ clean:
 all: clean
 	gcc $(CFLAGS) src/hello.c -o dst/hello
 	gcc $(CFLAGS) src/swap.c -o dst/swap
+	gcc $(CFLAGS) src/stack.c -o dst/stack
